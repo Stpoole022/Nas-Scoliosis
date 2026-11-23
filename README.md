@@ -44,3 +44,6 @@ and easier to use for donors, volunteers, and patients and families.
 
 ## Useful links
 - Live site: https://nascoliosis.co.za
+
+
+Someone needs to handle the Readme.md, Can we add roles for the other team members
