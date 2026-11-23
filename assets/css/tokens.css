@@ -1,0 +1,26 @@
+:root {
+    /* Light mode (default) */
+    --bg-primary: #ffffff;
+    --bg-surface: #f7f9f9;
+    --text-primary: #1a202c;
+    --text-muted: #4a5568;
+    --accent-primary: #0f766e;   /* Teal accent from sitemap/design */
+    --accent-hover: #0d5c56;
+    --donate-bg: #0f766e;
+    --donate-text: #ffffff;
+    --border-color: #e2e8f0;
+    --radius-md: 10px;
+    --max-width: 1200px;
+}
+
+[data-theme="dark"] {
+    --bg-primary: #0f172a;
+    --bg-surface: #1e293b;
+    --text-primary: #f8fafc;
+    --text-muted: #cbd5e1;
+    --accent-primary: #2dd4bf;
+    --accent-hover: #5eead4;
+    --donate-bg: #14b8a6;
+    --donate-text: #0f172a;
+    --border-color: #334155;
+}
