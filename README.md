@@ -16,9 +16,12 @@ and easier to use for donors, volunteers, and patients and families.
 ## Team and responsibilities
 | Member | Page / area |
 |---|---|
-| Luu | Home page |
+| Malibongwe | Home page |
 | Yakupha | About Page |
 | Jaydin | Support Page |
+| Tshepiso | Terms Of Use Page |
+| Ntlatla | Website Architecture |
+| Liyabona | Privacy Policy Page |
 | Tebogo | News and Events Page |
 | Nyiko | Contact us Page |
 
