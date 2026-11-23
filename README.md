@@ -14,13 +14,15 @@ What the team wants to achieve, e.g. make the website clearer, more trustworthy,
 and easier to use for donors, volunteers, and patients and families.
 
 ## Team and responsibilities
-| Member | Page / area |
-|---|---|
-| Luu | Home page |
-| Yakupha | About Page |
-| Jaydin | Support Page |
-| Tebogo | News and Events Page |
-| Nyiko | Contact us Page |
+| Member     | Page / area          |
+|------------|----------------------|
+| Ntlantla   | Website Architecture |
+| Malibongwe | Home page            |
+| Yakupha    | About Page           |
+| Jaydin     | Support Page         |
+| Tebogo     | News and Events Page |
+| Nyiko      | Contact us Page      |
+
 
 
 
