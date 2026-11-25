@@ -38,3 +38,32 @@ h1 {
 
 /* A clear outline when someone uses the Tab key */
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+.site-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.site-nav a {
+  display: block;
+  padding: 12px 4px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] { text-decoration: underline; }
