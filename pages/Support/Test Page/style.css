@@ -1,0 +1,40 @@
+/* Colours: change them here and the whole page changes */
+:root {
+  --bg: #FDF9F8;          /* page background */
+  --surface: #FFFFFF;     /* cards (used later) */
+  --tint-1: #FBEEF2;      /* hero background */
+  --border: #E8D3DE;
+  --text: #3B565F;        /* main text */
+  --link: #3F7077;
+  --primary: #6A9FA6;     /* main buttons */
+  --on-primary: #1A2A30;  /* text on main buttons */
+  --accent: #DCA5C4;      /* secondary buttons and photo frame */
+  --on-accent: #1F3036;   /* text on accent colour */
+  --focus: #3F7077;       /* outline when you tab to something */
+}
+
+/* Padding stays inside an element's width */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--link); }
+h1, h2, h3, p { margin: 0; }
+
+h1 {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+/* A clear outline when someone uses the Tab key */
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
