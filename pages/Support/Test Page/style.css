@@ -87,3 +87,35 @@ h1 {
 .button--primary { background: var(--primary); color: var(--on-primary); }
 .button--secondary { background: var(--accent); color: var(--on-accent); }
 
+.hero {
+  padding: 32px 20px;
+  background: var(--tint-1);
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lead { font-size: 17px; }
+
+.button-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.photo-frame {
+  margin-top: 24px;
+  padding: 10px;
+  border-radius: 16px;
+  background: var(--accent);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+}
