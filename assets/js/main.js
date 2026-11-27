@@ -24,3 +24,31 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const path = window.location.pathname;
+    let legalPrefix = "pages/Legal/";
+    let contactPath = "pages/Contact us/index.html";
+
+    if (path.includes("/pages/Legal/")) {
+        legalPrefix = "";
+        contactPath = "../Contact us/index.html";
+    } else if (path.includes("/pages/")) {
+        legalPrefix = "../Legal/";
+        contactPath = "../Contact us/index.html";
+    }
+
+    const footerHTML = `
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 NA Scoliosis Foundation NPC (NPO 265-653). All rights reserved. |
+        <a href="${legalPrefix}privacy-policy.html">Privacy Policy</a> |
+        <a href="${legalPrefix}terms-of-use.html">Terms of Use</a> |
+        <a href="${contactPath}">Contact Us</a>
+      </p>
+    </footer>
+  `;
+
+    if (!document.querySelector("footer")) {
+        document.body.insertAdjacentHTML("beforeend", footerHTML);
+    }
+});
